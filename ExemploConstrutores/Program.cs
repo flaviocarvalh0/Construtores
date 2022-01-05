@@ -6,7 +6,12 @@ namespace ExemploConstrutores
     class Program
     {
         static void Main(string[] args)
+        
         {
+            //constante são valores q recebem valores em sua inicialização e não poderá ser mudado dps
+            const double PI = 3.14;
+            System.Console.WriteLine(PI);
+            //PI = 0.2;
             // Log log = Log.GetInstace();
 
             // log.PropriedadeDeLog = "Teste de Instância";
@@ -20,12 +25,12 @@ namespace ExemploConstrutores
             // p1.Apresentar();
             // a1.Apresentar();
 
-            Data d1 = new Data();
-            d1.data = 12;
-            System.Console.WriteLine(d1.data);
+            // Data d1 = new Data();
+            // d1.data = 12;
+            // System.Console.WriteLine(d1.data);
             
-            // d1.SetMes(12);
-            d1.ApresentarMes();
+            // // d1.SetMes(12);
+            // d1.ApresentarMes();
         }
     }
 }
