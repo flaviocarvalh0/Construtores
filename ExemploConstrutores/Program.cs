@@ -12,10 +12,10 @@ namespace ExemploConstrutores
         {
 
             // Operacao op = Operacao(Calculadora.Somar);
-            Operacao op = new Operacao(Calculadora.Somar);
-            op += Calculadora.Subtratir;
+            // Operacao op = new Operacao(Calculadora.Somar);
+            // op += Calculadora.Subtratir;
 
-            op.Invoke(2, 8);
+            // op.Invoke(2, 8);
 
 
 
