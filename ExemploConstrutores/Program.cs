@@ -9,8 +9,8 @@ namespace ExemploConstrutores
         
         {
             //constante são valores q recebem valores em sua inicialização e não poderá ser mudado dps
-            const double PI = 3.14;
-            System.Console.WriteLine(PI);
+            // const double PI = 3.14;
+            // System.Console.WriteLine(PI);
             //PI = 0.2;
             // Log log = Log.GetInstace();
 
