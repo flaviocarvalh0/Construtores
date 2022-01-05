@@ -9,13 +9,15 @@ namespace ExemploConstrutores.Models
         {
             this.Nome = nome;
             this.Sobrenome = sobrenome;
+            System.Console.WriteLine("Connstrutor da classe pessoa");
+
         }
 
-        public Pessoa()
-        {
-            Nome = string.Empty;
-            Sobrenome = string.Empty;
-        }
+        // public Pessoa()
+        // {
+        //     Nome = string.Empty;
+        //     Sobrenome = string.Empty;
+        // }
 
         public void Apresentar()
         {

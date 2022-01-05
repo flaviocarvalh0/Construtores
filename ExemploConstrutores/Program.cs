@@ -7,15 +7,18 @@ namespace ExemploConstrutores
     {
         static void Main(string[] args)
         {
-            Log log = Log.GetInstace();
+            // Log log = Log.GetInstace();
 
-            log.PropriedadeDeLog = "Teste de Instância";
+            // log.PropriedadeDeLog = "Teste de Instância";
 
-            Log log2 = Log.GetInstace();
-            System.Console.WriteLine(log2.PropriedadeDeLog);
+            // Log log2 = Log.GetInstace();
+            // System.Console.WriteLine(log2.PropriedadeDeLog);
 
-            // Pessoa p1 = new Pessoa("Flávio","Alves");
-            // p1.Apresentar();
+            Pessoa p1 = new Pessoa("Flávio", "Alves");
+            Aluno a1 = new Aluno("Ray","Alves","POrtugês");
+
+            p1.Apresentar();
+            a1.Apresentar();
         }
     }
 }
