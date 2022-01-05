@@ -11,6 +11,9 @@ namespace ExemploConstrutores
 
         {
 
+            Matematica mat = new Matematica(10,20);
+            mat.Somar();
+
             // Operacao op = Operacao(Calculadora.Somar);
             // Operacao op = new Operacao(Calculadora.Somar);
             // op += Calculadora.Subtratir;
